@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/widget"
+    android:orientation="horizontal"
+    >
+
+	<ImageView
+        android:id="@+id/BlitzWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/blitzbuttonwidget"
+        android:layout_marginLeft="5dip"
+        android:layout_gravity="center|center"
+        />
+
+	<TextView 
+         android:id="@+id/textView1"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="26dip"
+         android:layout_marginLeft="26dip"
+         android:layout_marginRight="26dip"
+         android:layout_marginBottom="26dip"
+         android:gravity="center_vertical"
+         android:lines="3"
+         android:textSize="15sp"
+         />
+
+</LinearLayout>

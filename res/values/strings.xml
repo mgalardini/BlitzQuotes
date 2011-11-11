@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, BlitzQuotes!</string>
+    <string name="Q0">Se fa cahare, un lo comprare</string>
+    <string name="app_name">Blitz! Quotes</string>
+    <string name="Q2">Tanto ci pensa la vita</string>
+    <string name="Q1">Meno fichi, piú tortellini</string>
+    <string name="Q3">Indoe un ce n\'è un ci se ne mette</string>
+    <string name="Q4">O vai o muori, è la legge</string>
+    <string name="Q5">Te un t\'incaricare</string>
+    <string name="Q6">Se non scatti non trovi</string>
+    <string name="Q7">Le fotografie non vanno spiegate</string>
+    <string name="Q8">Se gl\'ha bucato l\'obbiettivo la va messa</string>
+    <string name="refresh"></string>
+</resources>
