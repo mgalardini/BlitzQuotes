@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class BlitzQuotesActivity extends Activity {
+	private int start = 1;
+	
 	private RandomQuote rquoter = new RandomQuote();
 	
     /** Called when the activity is first created. */
@@ -18,8 +20,12 @@ public class BlitzQuotesActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        setRandomQuote();
-    
+        // Set the first quote
+        if (start == 1) {
+        	setRandomQuote();
+        	start = 0;
+        	}
+        	
 	    final Button refresh = (Button) findViewById(R.id.Refresh);
 	    refresh.setOnClickListener(new OnClickListener(){
 	        public void onClick(View v) {
