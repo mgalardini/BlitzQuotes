@@ -21,7 +21,7 @@
     	android:padding="10dp"
     	android:gravity="center|center"
     	android:background="@drawable/lcallout"
-    	android:maxWidth="240dp">
+    	android:maxWidth="150dp">
 		    <TextView
 		    	android:text=""
 		        android:id="@+id/Quote"
@@ -39,7 +39,8 @@
     	android:layout_width="wrap_content"
     	android:layout_height="wrap_content"
     	android:id="@+id/undercallout"
-    	android:background="@drawable/ldcallout"/>
+    	android:background="@drawable/ldcallout"
+    	android:maxWidth="10dp"/>
     	
     	<RelativeLayout
     	android:layout_width="wrap_content"
