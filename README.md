@@ -1,6 +1,8 @@
 BlitzQuotes
 ===========
 
+![logo](res/drawable-hdpi/icon.png)
+
 A (really) simple Android application to show random quotes from the Blitz! crew (www.blitzphoto.org)
 
 What it does
